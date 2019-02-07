@@ -1,38 +1,31 @@
 header
     background-image: linear-gradient(35deg, #293b5e 30%, #393e46)
-
 .logo
     display: block
-
 .wrapper-header
-    padding: 10px 10px 0 10px
-
-.nav
+    padding: 10px
+.title
     justify-content: space-between
     align-items: flex-end
     width: 100%
-
     h1
         font: 24px sans-serif
         font-style: italic
+        text-align: right
         color: $h1
         margin-left: 30px
         &::selection
             background: transparent
-    h1
         b
             color: $h1
             &::selection
                 background: transparent
-
-
-
-.menu
-    margin: auto
-
+nav
+    background-color: #393E46
+.menu   
+    background-color: 
     .menu-item
         list-style-type: none
-
         a
             text-decoration: none
             color: $font-second
@@ -40,10 +33,13 @@ header
             display: block
             border-radius: 4px
             font-weight: 300
-
             &:hover
                 background-color: $menu_hover
                 transition: all 0.3s
-            
+.fixed
+    display: flex
+    position: fixed
+    top: 0
+    width: 100%
 
         

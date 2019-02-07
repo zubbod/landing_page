@@ -9,24 +9,26 @@
     <title>Document</title>
 </head>
 
+<script src="/app/app.js"></script>
+
 <body>
     <header>
         <div class="wrapper wrapper-header col">
-            <div class="row nav">
+            <div class="row title">
                 <a href="#" class="logo"><img src="/img/logo.png" alt="logotype" class="logo"></a>
                 <h1>SolarLab Cources <b>FRONTEND</b></h1>
             </div>
-            <div class="row menu">
-                <ul class="menu row-wrap">
-                    <li class="menu-item"><a href="#">Информация</a></li>
-                    <li class="menu-item"><a href="#">Образование</a></li>
-                    <li class="menu-item"><a href="#">Хобби</a></li>
-                    <li class="menu-item"><a href="#">Контакты</a></li>
-                </ul>
-            </div>
         </div>
     </header>
-    <section class="section-main col">
+    <nav  class="row" id="menu">
+            <ul class="menu row-wrap wrapper">
+                <li class="menu-item"><a href="#info">Информация</a></li>
+                <li class="menu-item"><a href="#educ">Образование</a></li>
+                <li class="menu-item"><a href="#hobby-list">Хобби</a></li>
+                <li class="menu-item"><a href="#contacts">Контакты</a></li>
+            </ul>
+    </nav>
+    <section class="section-main col" id="info">
         <div class="wrapper row-wrap student-info">
             <div class="student-foto"><img src="/img/no_foto.png" alt="Нет фотографии"></div>
             <div class="student-description">
@@ -39,7 +41,7 @@
             </div>
         </div>
     </section>
-    <section class="education col">
+    <section class="education col" id="educ">
         <div class="wrapper row-wrap">
             <div class="education-description col">
                 <h3>2013 г.</h3>
@@ -50,7 +52,7 @@
             <div class="education-image"><img src="/img/brain.png" alt="Brain icon"></div>
         </div>
     </section>
-    <section class="hobby">
+    <section class="hobby" id="hobby-list">
         <div class="wrapper col">
             <h2>Хобби</h2>
             <div class="image-wrap row-wrap">
@@ -61,7 +63,7 @@
 
         </div>
     </section>
-    <section class="feedback row">
+    <section class="feedback row" id="contacts">
         <div class="wrapper col">
             <h2>Как связаться?</h2>
             <form action="#" method="POST">
@@ -69,8 +71,10 @@
                     <legend>Заполните данные</legend>
                     <label for="name"></label><input type="text" id="name" placeholder="Введите имя:">
                     <label for="email"></label><input type="email" id="email" placeholder="Введите email:">
-                    <label for="message"></label><textarea name="" id="message" cols="30" rows="5" placeholder="Сообщение:"></textarea>
-                    <label for="accept"><input type="checkbox" id="accept">Согласен на обработку персональных данных</label>
+                    <label for="message"></label><textarea name="" id="message" cols="30" rows="5"
+                        placeholder="Сообщение:"></textarea>
+                    <label for="accept"><input type="checkbox" id="accept">Согласен на обработку персональных
+                        данных</label>
                     <input type="button" value="Отправить">
                 </fieldset>
             </form>

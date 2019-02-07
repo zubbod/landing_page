@@ -55,10 +55,10 @@ header {
 }
 
 .wrapper-header {
-  padding: 10px 10px 0 10px;
+  padding: 10px;
 }
 
-.nav {
+.title {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -68,35 +68,36 @@ header {
   width: 100%;
 }
 
-.nav h1 {
+.title h1 {
   font: 24px sans-serif;
   font-style: italic;
+  text-align: right;
   color: #F8B500;
   margin-left: 30px;
 }
 
-.nav h1::-moz-selection {
+.title h1::-moz-selection {
   background: transparent;
 }
 
-.nav h1::selection {
+.title h1::selection {
   background: transparent;
 }
 
-.nav h1 b {
+.title h1 b {
   color: #F8B500;
 }
 
-.nav h1 b::-moz-selection {
+.title h1 b::-moz-selection {
   background: transparent;
 }
 
-.nav h1 b::selection {
+.title h1 b::selection {
   background: transparent;
 }
 
-.menu {
-  margin: auto;
+nav {
+  background-color: #393E46;
 }
 
 .menu .menu-item {
@@ -116,6 +117,15 @@ header {
   background-color: #74777A;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.fixed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .section-main {
