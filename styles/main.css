@@ -151,7 +151,7 @@ nav {
 
 .student-description-item {
   padding: 10px;
-  list-style-image: url("/img/list_style.png");
+  list-style-image: url("../img/list_style.png");
 }
 
 .student-description-item a {
@@ -227,15 +227,15 @@ nav {
 }
 
 .hobby-item-1 {
-  background: url("/img/hobby/1.jpg") center center/210px no-repeat;
+  background: url("../img/hobby/1.jpg") center center/210px no-repeat;
 }
 
 .hobby-item-2 {
-  background: url("/img/hobby/2.jpg") center center/210px no-repeat;
+  background: url("../img/hobby/2.jpg") center center/210px no-repeat;
 }
 
 .hobby-item-3 {
-  background: url("/img/hobby/3.jpg") center center/210px no-repeat;
+  background: url("../img/hobby/3.jpg") center center/210px no-repeat;
 }
 
 .feedback h2 {
@@ -328,18 +328,18 @@ footer p {
 }
 
 .github {
-  background: url("/img/social/github.png") center no-repeat;
+  background: url("../img/social/github.png") center no-repeat;
 }
 
 .skype {
-  background: url("/img/social/skype.png") center no-repeat;
+  background: url("../img/social/skype.png") center no-repeat;
 }
 
 .telegram {
-  background: url("/img/social/telegram.png") center no-repeat;
+  background: url("../img/social/telegram.png") center no-repeat;
 }
 
 .vk {
-  background: url("/img/social/vk.png") center no-repeat;
+  background: url("../img/social/vk.png") center no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
