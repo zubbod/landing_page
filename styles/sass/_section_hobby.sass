@@ -7,12 +7,37 @@
         font-weight: 400
 
 .image-wrap
+    max-width: 1280px
+    margin: 3vw auto
+    width: 70%
     justify-content: space-around
 
-.hobby-item
-    border-radius: 50%
-    box-shadow: 2px 3px 4px rgba(0,0,0, 0.5)
-    border: 1px solid $border
-    margin: 3vw 1vw
-    min-width: 200px
+// .hobby-item
+//     border-radius: 50%
+//     box-shadow: 2px 3px 4px rgba(0,0,0, 0.5)
+//     border: 1px solid $border
+//     margin: 3vw 1vw
+//     min-width: 200px
 
+.hobby-item, .hobby-description
+    width: 210px
+    height: 210px
+    border-radius: 50%
+    border: 1px solid $border
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.5)
+.hobby-description-1, .hobby-description-2, .hobby-description-3
+    opacity: 0
+    background-color: #000
+    justify-content: center
+    align-items: center
+    p
+        color: $font-second
+    &:hover
+        opacity: 0.8
+        transition: all 0.4s
+.hobby-item-1
+    background: url("/img/hobby/1.jpg") center center / 210px no-repeat
+.hobby-item-2
+    background: url("/img/hobby/2.jpg") center center / 210px no-repeat
+.hobby-item-3
+    background: url("/img/hobby/3.jpg") center center / 210px no-repeat
